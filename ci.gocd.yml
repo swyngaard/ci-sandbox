@@ -1,0 +1,14 @@
+format_version: 3
+pipelines:
+  mypipe:
+    group: mygroup
+    materials:
+      mygit:
+        git: http://github.com/swyngaard/ci-sandbox.git
+    stages:
+      - build:
+          jobs:
+            build:
+              tasks:
+               - exec:
+                   command: echo -e "Hello\nWorld!\n"
