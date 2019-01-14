@@ -11,4 +11,6 @@ pipelines:
             build:
               tasks:
                - exec:
-                   command: echo -e 'Hello\nWorld!'
+                   command: echo
+                   arguments:
+                     - "Hello World+"
