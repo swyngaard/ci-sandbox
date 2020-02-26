@@ -1,4 +1,5 @@
 ---
+title: fcb
 permalink: /FlightControllerBoard/
 ---
 @base <https://ld.landrs.org/> .
